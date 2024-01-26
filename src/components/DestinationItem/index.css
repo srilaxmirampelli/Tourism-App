@@ -1,0 +1,37 @@
+/* Write your CSS here */
+body {
+  font-family: 'Roboto';
+}
+* {
+  box-sizing: border-box;
+}
+.destination-item-card {
+  list-style-type: none;
+  margin: 10px;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.destination-img {
+  min-width: 150px;
+  max-width: 250px;
+  height: 200px;
+  border-radius: 15px;
+  border-width: 0;
+}
+.destination-name {
+  font-weight: 400;
+  font-size: 27px;
+  max-width: 200px;
+  color: #4f0599;
+}
+@media screen and (max-width: 576px) {
+  .destination-img {
+    width: 230px;
+    height: 180px;
+  }
+  .destination-name {
+    font-size: 20px;
+  }
+}
